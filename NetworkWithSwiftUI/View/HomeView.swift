@@ -1,15 +1,14 @@
 //
-//  ContentView.swift
+//  HomeView.swift
 //  NetworkWithSwiftUI
 //
-//  Created by Abdelaziz Reda on 03/11/2023.
+//  Created by Abdelaziz Reda on 04/11/2023.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomeView: View {
     @ObservedObject var viewModel = ViewModel()
-    @ObservedObject var tabviewModel = TabViewModel()
     
     
     var body: some View {
@@ -33,7 +32,7 @@ struct ContentView: View {
     
     struct ContentView_Previews: PreviewProvider {
         static var previews: some View {
-            ContentView()
+            HomeView()
         }
     }
 }

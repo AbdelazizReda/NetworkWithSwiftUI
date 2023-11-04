@@ -19,7 +19,6 @@ struct ContentView: View {
 
             } else {
                 Text("Data Loading.... ")
-                Text("Data Loading.... ")
 
                     .onAppear {
                         viewModel.fetchData()

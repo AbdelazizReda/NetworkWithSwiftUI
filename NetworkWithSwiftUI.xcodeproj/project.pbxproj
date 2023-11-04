@@ -44,6 +44,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32A9609A2AF5DC370028738E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				32F992712AF58B4F00C696C1 /* NetworkWithSwiftUIApp.swift */,
+				32F992732AF58B4F00C696C1 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		32A9609B2AF5DC4A0028738E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				32F992752AF58B5200C696C1 /* Assets.xcassets */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		32F992652AF58B4F00C696C1 = {
 			isa = PBXGroup;
 			children = (
@@ -63,13 +80,12 @@
 		32F992702AF58B4F00C696C1 /* NetworkWithSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				32A9609B2AF5DC4A0028738E /* Utilities */,
+				32A9609A2AF5DC370028738E /* View */,
 				32F9928E2AF5925200C696C1 /* Constants */,
 				32F9928A2AF58F7D00C696C1 /* Models */,
 				32F992872AF58F3A00C696C1 /* ViewModels */,
 				32F9927F2AF58B6F00C696C1 /* Network */,
-				32F992712AF58B4F00C696C1 /* NetworkWithSwiftUIApp.swift */,
-				32F992732AF58B4F00C696C1 /* ContentView.swift */,
-				32F992752AF58B5200C696C1 /* Assets.xcassets */,
 				32F992772AF58B5200C696C1 /* Preview Content */,
 			);
 			path = NetworkWithSwiftUI;

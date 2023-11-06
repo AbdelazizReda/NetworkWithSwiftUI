@@ -39,7 +39,7 @@ struct TabItemView: View {
             if tab.name == "Tab 1" {
                 HomeView()
             } else if tab.name == "Tab 2" {
-                Tab2ContentView()
+                pinterestCollection()
             } else if tab.name == "Tab 3" {
                 Tab3ContentView()
             } else if tab.name == "Tab 4" {

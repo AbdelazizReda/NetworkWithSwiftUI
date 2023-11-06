@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		328F95B02AF874C200C655C5 /* PinterestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F95AF2AF874C200C655C5 /* PinterestCell.swift */; };
+		328F95B22AF8751100C655C5 /* pinterstCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F95B12AF8751100C655C5 /* pinterstCellModel.swift */; };
+		328F95B42AF8754B00C655C5 /* pinterestCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F95B32AF8754B00C655C5 /* pinterestCollection.swift */; };
 		32A9609D2AF5E5A20028738E /* TabBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A9609C2AF5E5A20028738E /* TabBarModel.swift */; };
 		32A9609F2AF5E5BF0028738E /* TabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A9609E2AF5E5BF0028738E /* TabBarViewModel.swift */; };
 		32A960A12AF5EA780028738E /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A960A02AF5EA780028738E /* TabBarView.swift */; };
@@ -23,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		328F95AF2AF874C200C655C5 /* PinterestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestCell.swift; sourceTree = "<group>"; };
+		328F95B12AF8751100C655C5 /* pinterstCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pinterstCellModel.swift; sourceTree = "<group>"; };
+		328F95B32AF8754B00C655C5 /* pinterestCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pinterestCollection.swift; sourceTree = "<group>"; };
 		32A9609C2AF5E5A20028738E /* TabBarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarModel.swift; sourceTree = "<group>"; };
 		32A9609E2AF5E5BF0028738E /* TabBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewModel.swift; sourceTree = "<group>"; };
 		32A960A02AF5EA780028738E /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
@@ -50,12 +56,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		328F95AD2AF8746F00C655C5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				32A960A22AF5EDE70028738E /* HomeView.swift */,
+				328F95AF2AF874C200C655C5 /* PinterestCell.swift */,
+				328F95B32AF8754B00C655C5 /* pinterestCollection.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		328F95AE2AF8749100C655C5 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				32A960A02AF5EA780028738E /* TabBarView.swift */,
+				32F992712AF58B4F00C696C1 /* NetworkWithSwiftUIApp.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 		32A9609A2AF5DC370028738E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				32F992712AF58B4F00C696C1 /* NetworkWithSwiftUIApp.swift */,
-				32A960A02AF5EA780028738E /* TabBarView.swift */,
-				32A960A22AF5EDE70028738E /* HomeView.swift */,
+				328F95AE2AF8749100C655C5 /* TabBar */,
+				328F95AD2AF8746F00C655C5 /* Home */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -129,6 +153,7 @@
 			children = (
 				32F9928C2AF58F9900C696C1 /* HomeModel.swift */,
 				32A9609C2AF5E5A20028738E /* TabBarModel.swift */,
+				328F95B12AF8751100C655C5 /* pinterstCellModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -217,6 +242,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				328F95B22AF8751100C655C5 /* pinterstCellModel.swift in Sources */,
+				328F95B02AF874C200C655C5 /* PinterestCell.swift in Sources */,
 				32F992812AF58B8F00C696C1 /* NetworkLayer.swift in Sources */,
 				32A9609F2AF5E5BF0028738E /* TabBarViewModel.swift in Sources */,
 				32A9609D2AF5E5A20028738E /* TabBarModel.swift in Sources */,
@@ -225,6 +252,7 @@
 				32F992862AF58E1200C696C1 /* Endpoints.swift in Sources */,
 				32F992902AF5926100C696C1 /* Constants.swift in Sources */,
 				32F992892AF58F6400C696C1 /* HomeViewModel.swift in Sources */,
+				328F95B42AF8754B00C655C5 /* pinterestCollection.swift in Sources */,
 				32A960A12AF5EA780028738E /* TabBarView.swift in Sources */,
 				32F992722AF58B4F00C696C1 /* NetworkWithSwiftUIApp.swift in Sources */,
 			);

@@ -22,7 +22,7 @@ struct pinterestCollection: View {
 
      var body: some View {
          ScrollView {
-             LazyVGrid(columns: [GridItem(.adaptive(minimum: 150))], spacing: 10) {
+             LazyVGrid(columns: [GridItem(.adaptive(minimum: 135))], spacing: 10) {
                  ForEach(pins) { pin in
                      PinterestCell(pin: pin)
                  }

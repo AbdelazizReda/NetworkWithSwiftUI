@@ -16,5 +16,7 @@ struct Pin: Identifiable {
     let description: String
     var isFavorite = false
     var inCart = false
+    var inSheard = false
+
 
 }

@@ -15,10 +15,7 @@ class TabViewModel: ObservableObject {
         TabItem(name: "Caregories", imageName: "command"),
         TabItem(name: "Search", imageName: "magnifyingglass"),
         TabItem(name: "Profile", imageName: "person")
-//        TabItem(name: "home", imageName: "2.circle.fill"),
-//        TabItem(name: "Tab 2", imageName: "2.circle.fill"),
-//        TabItem(name: "Tab 2", imageName: "2.circle.fill"),
-//        TabItem(name: "Tab 2", imageName: "2.circle.fill")
+
 
     ]
 }

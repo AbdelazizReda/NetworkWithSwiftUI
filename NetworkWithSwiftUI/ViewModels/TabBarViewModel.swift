@@ -10,11 +10,15 @@ import Foundation
 // ViewModel
 class TabViewModel: ObservableObject {
     @Published var selectedTabIndex = 0
-    
     let tabs: [TabItem] = [
-        TabItem(name: "Tab 1", imageName: "1.circle.fill"),
-        TabItem(name: "Tab 2", imageName: "2.circle.fill"),
-        TabItem(name: "Tab 3", imageName: "3.circle.fill"),
-        TabItem(name: "Tab 4", imageName: "4.circle.fill")
+        TabItem(name: "Home", imageName: "2.circle.fill"),
+        TabItem(name: "Caregories", imageName: "command"),
+        TabItem(name: "Search", imageName: "magnifyingglass"),
+        TabItem(name: "Profile", imageName: "person")
+//        TabItem(name: "home", imageName: "2.circle.fill"),
+//        TabItem(name: "Tab 2", imageName: "2.circle.fill"),
+//        TabItem(name: "Tab 2", imageName: "2.circle.fill"),
+//        TabItem(name: "Tab 2", imageName: "2.circle.fill")
+
     ]
 }

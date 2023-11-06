@@ -36,13 +36,13 @@ struct TabItemView: View {
     
     var body: some View {
         Group {
-            if tab.name == "Tab 1" {
+            if tab.name == "Home" {
                 HomeView()
-            } else if tab.name == "Tab 2" {
+            } else if tab.name == "Caregories" {
                 pinterestCollection()
-            } else if tab.name == "Tab 3" {
+            } else if tab.name == "Search" {
                 Tab3ContentView()
-            } else if tab.name == "Tab 4" {
+            } else if tab.name == "Profile" {
                 HomeView()
             }
         }

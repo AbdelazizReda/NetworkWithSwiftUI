@@ -12,6 +12,12 @@ struct pinterestCollection: View {
          Pin(imageName: "test", title: "HP Probook", description: "HP Probook 450 G8 Laptop - 11th Intel Core i5-1135G7, 8GB RAM 1"),
          Pin(imageName: "test", title: "HP Zbook", description: "HP Probook 450 G8 Laptop - 11th Intel Core i5-1135G7, 8GB RAM 2"),  Pin(imageName: "test", title: "HP book", description: "HP Probook 450 G8 Laptop - 11th Intel Core i5-1135G7, 8GB RAM 2"),  Pin(imageName: "test", title: "HP Z-book", description: "HP Probook 450 G8 Laptop - 11th Intel Core i5-1135G7, 8GB RAM 2"),  Pin(imageName: "test", title: "HP Probook", description: "HP Probook 450 G8 Laptop - 11th Intel Core i5-1135G7, 8GB RAM 2"),  Pin(imageName: "test", title: "HP Elite", description: "HP Probook 450 G8 Laptop - 11th Intel Core i5-1135G7, 8GB RAM 2")
          // Add more pins here
+         //test
+         //test
+         //test
+
+         //test
+
      ]
 
      var body: some View {

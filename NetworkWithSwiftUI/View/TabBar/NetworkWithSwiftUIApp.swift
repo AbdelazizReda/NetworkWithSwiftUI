@@ -10,8 +10,8 @@ import SwiftUI
 @main
 struct NetworkWithSwiftUIApp: App {
     var body: some Scene {
-        WindowGroup {
-            TabBarView()
-        }
-    }
+          WindowGroup {
+              Contentt()
+          }
+      }
 }
